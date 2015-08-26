@@ -1,0 +1,21 @@
+/* Block level tags */
+address, article, aside, blockquote, canvas, dd, div, dl, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, hr, li, main, nav, noscript, ol, output, p, pre, section, table, tfoot, ul, video {
+	direction : rtl;
+	text-align: right;
+}
+
+/* Code tags */
+pre, code {
+	direction: ltr;
+	text-align: left;
+}
+
+/* optional rtl class */
+.rtl {
+	direction: rtl;
+}
+
+/* optional ltr class */
+.ltr {
+	direction: ltr;
+}
